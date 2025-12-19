@@ -1,5 +1,15 @@
 mantenimiento-aire-acondicionado/
 ├── app.py
-├── requirements.txt: gunicorn==23.0.0
+├── requirements.txt:Flask==3.0.3
+Flask-Login==0.6.3
+Flask-Mail==0.10.0
+APScheduler==3.10.4
+flask-apscheduler==1.13.1
+pandas==2.2.3
+openpyxl==3.1.5
+qrcode[pil]==8.0
+reportlab==4.2.5
+gunicorn==23.0.0
+Werkzeug==3.0.4
 ├── MANUAL_DE_USUARIO.md
 └── (las carpetas qr_generados y fotos_equipos se crean solas)
