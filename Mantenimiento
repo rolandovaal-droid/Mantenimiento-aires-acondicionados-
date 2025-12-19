@@ -1,5 +1,5 @@
 mantenimiento-aire-acondicionado/
 ├── app.py
-├── requirements.txt
+├── requirements.txt:gunicorn==23.0.0
 ├── MANUAL_DE_USUARIO.md
 └── (las carpetas qr_generados y fotos_equipos se crean solas)
