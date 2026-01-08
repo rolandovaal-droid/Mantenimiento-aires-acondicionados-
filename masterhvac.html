@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTERHVAC | Expertos en Refrigeración, Aire Acondicionado y Ventilación</title>
+    <meta name="description" content="Instalación, mantenimiento y reparación de sistemas HVAC. Servicio 24/7 en Perú.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        :root { --primary: #0ea5e9; --primary-dark: #0284c7; --light: #f0f9ff; --dark: #0c4a6e; }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Inter',sans-serif; color:var(--dark); line-height:1.6; }
+        .container { max-width:1200px; margin:0 auto; padding:0 20px; }
+        header { background:white; position:fixed; width:100%; top:0; z-index:1000; box-shadow:0 4px 20px rgba(0,0,0,0.1); }
+        nav { display:flex; justify-content:space-between; align-items:center; padding:1.2rem 0; }
+        .logo { font-size:2.5rem; font-weight:800; color:var(--primary); }
+        .hero { background: linear-gradient(135deg, rgba(14,165,233,0.95), rgba(2,132,199,0.98)), url('https://images.unsplash.com/photo-1598256989519-1e9b53c97a66?ixlib=rb-4.0.3&auto=format&fit=crop&q=80') center/cover; color:white; text-align:center; padding:220px 0 160px; }
+        .hero h1 { font-size:3.8rem; }
+        section { padding:100px 0; }
+        .bg-light { background:var(--light); }
+        h2 { text-align:center; font-size:2.8rem; margin-bottom:3rem; }
+        .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:2rem; }
+        .gallery { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:1rem; }
+        .gallery img { width:100%; border-radius:12px; box-shadow:0 10px 20px rgba(0,0,0,0.1); }
+        .wa-float { position:fixed; bottom:25px; right:25px; background:#25d366; color:white; width:70px; height:70px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:3rem; box-shadow:0 10px 30px rgba(37,211,102,0.5); z-index:999; animation:pulse 2s infinite; }
+        @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(37,211,102,0.7)} 70%{box-shadow:0 0 0 20px rgba(37,211,102,0)} 100%{box-shadow:0 0 0 0 rgba(37,211,102,0)} }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MASTERHVAC</div>
+                <a href="https://wa.me/51961816821" class="btn" style="background:#25d366;color:white;padding:12px 24px;border-radius:50px;">WhatsApp</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Expertos en Sistemas HVAC</h1>
+            <p>Instalación • Mantenimiento • Reparación 24/7</p>
+            <a href="https://wa.me/51961816821?text=Hola%20MASTERHVAC" style="background:white;color:var(--primary-dark);padding:18px 45px;border-radius:50px;font-size:1.3rem;">Solicitar Presupuesto</a>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="grid">
+                <div><i class="fas fa-snowflake" style="font-size:4rem;color:var(--primary);"></i><h3>Instalación</h3></div>
+                <div><i class="fas fa-tools" style="font-size:4rem;color:var(--primary);"></i><h3>Mantenimiento</h3></div>
+                <div><i class="fas fa-wrench" style="font-size:4rem;color:var(--primary);"></i><h3>Reparación</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Nuestros Trabajos</h2>
+            <div class="gallery">
+                <!-- Aquí van las imágenes de la galería -->
+                <img src="https://invoicefly.com/wp-content/uploads/2025/10/image-11-1024x614.png.webp" alt="Técnico instalando">
+                <img src="https://www.aprofessionalheatingandair.com/blog/wp-content/uploads/2024/07/Is-It-Too-Late-for-AC-Maintenance.jpg" alt="Mantenimiento AC">
+                <img src="https://arcticairofnorthernflorida.com/wp-content/uploads/2025/11/ac-repair-technician.webp" alt="Reparación profesional">
+                <img src="https://www.hobsonplumbing.com/wp-content/uploads/2021/05/ac-unit-1080x675.jpg" alt="Limpieza unidad">
+                <img src="https://smockhvac.com/wp-content/uploads/2025/05/wipe-ac-unit-1024x697.jpeg" alt="Limpieza detallada">
+                <img src="https://irp.cdn-website.com/e2321121/dms3rep/multi/hvac+coil+cleaning+in+denver+before+and+after+common+cents+energy+recovery.png" alt="Antes y después">
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/51961816821" class="wa-float"><i class="fab fa-whatsapp"></i></a>
+
+</body>
+</html>
